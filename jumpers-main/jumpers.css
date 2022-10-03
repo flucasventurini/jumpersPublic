@@ -1,0 +1,124 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    margin-left: 2%;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 350%;
+}
+
+#MainDiv {
+    background-color: #a69c94;
+    height: 100%;
+    width: 100%;
+    display: table;
+    justify-content: center;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+button {
+    margin-left: 60px;
+    margin-top: 90px;
+    padding: 3%;
+    border-radius: 8px;
+    width: 15%;
+    font-size: 30px;
+    color: #40372f;
+    background-color: #8da658;
+    cursor: pointer;
+    display: inline;
+    float: none;
+}
+
+button:hover {
+    transition: ease 0.5s;
+    background-color: #386438b2;
+    color: #40372f;
+    border: inline 3px black;
+    border-radius: 8px;
+    }
+footer {
+    position: fixed;
+    left: 0;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: #40372f;
+    text-align: center;
+    }
+
+#iconFoot, #iconFoot2 {
+    font-size: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    color: white;
+    padding-top: 6px;
+}
+
+
+#iconSpotify {
+    font-size: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 6px;
+    color: green;
+}
+
+#BotaoPanico {
+    width: 50%;
+    display: inline;
+    background-color: #9e2a2b;
+    border:outset 3px black;
+    color: black;
+    border-radius: 50px;
+}
+
+@media (max-width:1000px) {
+    button {
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+    }
+
+    #iconFoot, #iconFoot2, #iconSpotify {
+        display: inline-block;
+        width: 32%;
+        padding: 0;
+        margin-top: 5px;
+    }
+/*
+    #iconFoot, #iconFoot2 {
+        width: 10px;
+        display: contents;
+        font-size: 30px;
+        position: initial;
+        margin: 50%;
+    }
+
+    #iconSpotify {
+        width: 10px;
+        display: block;
+        font-size: 30px;
+        display: inline-block;
+    } */
+}

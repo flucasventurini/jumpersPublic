@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jumpers.css">
+    <script src="https://kit.fontawesome.com/d26217158d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Interface App</title>
+</head>
+<body>
+    <div id="MainDiv">
+        <h1>Jumpers</h1>
+            <button id="iconButton1" value=0>light
+                <i class="fa-regular fa-lightbulb"></i>
+            </button>
+
+            <button id="iconButton2" value=0>confort
+                <i class="fa-solid fa-house"></i>
+            </button>
+
+            <button id="iconButton3" value=0>gate
+                <i class="fa-solid fa-door-open"></i>
+            </button>
+
+            <a href="camSys.html">                
+            <button id="iconButton4" value=0>cam
+                <i class="fa-solid fa-video"></i>
+            </button>
+            </a>
+
+            <button id="BotaoPanico">emergency
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </button>
+    </div>
+
+    <footer>
+       <a href="camSys.html"><i class="fa-solid fa-video" id="iconFoot"></i></a>
+       <a href="index.html"><i class="fa-solid fa-bars" id="iconFoot2"></i></a>
+       <a href="https://open.spotify.com/"><i class="fa-brands fa-spotify" id="iconSpotify"></i></a>
+    </footer>
+
+<script>
+    let button1 = document.getElementById('iconButton1')
+    let button2 = document.getElementById('iconButton2')
+    let button3 = document.getElementById('iconButton3')
+    let button4 = document.getElementById('iconButton4')
+
+
+     button1.onclick =()=>{
+        console.log(button1.value)
+        if(
+            button1.value == '0'
+        ){
+        button1.style.backgroundColor = '#73655a'
+        button1.value = '1'
+        } else {
+            button1.style.backgroundColor = '#8da658'
+            button1.value = '0'
+        }
+    }
+
+    button2.onclick =()=>{
+        if(
+            button2.value == '0'
+        ){
+        button2.style.backgroundColor = '#73655a'
+        button2.value = '1'
+        } else {
+            button2.style.backgroundColor = '#8da658'
+            button2.value = '0'
+        }
+    }
+
+    button3.onclick =()=>{
+        if(
+            button3.value == '0'
+        ){
+        button3.style.backgroundColor = '#73655a'
+        button3.value = '1'
+        } else {
+            button3.style.backgroundColor = '#8da658'
+            button3.value = '0'
+        }
+    }
+</script>
+
+</body>
+</html>
