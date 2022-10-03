@@ -27,7 +27,8 @@ h1 {
 
 img {
     max-width: 480px;
-    max-width: 460px;
+    max-height: 460px;
+    margin: 5px;
 }
 
 
@@ -66,8 +67,12 @@ footer {
     #iconFoot, #iconFoot2, #iconSpotify {
         display: inline-block;
         width: 32%;
-        padding: 0;
-        margin-top: 5px;
+        padding: 0px;
+        margin: 1px;
+    }
+
+    footer {
+        position: static;
     }
 
 }
